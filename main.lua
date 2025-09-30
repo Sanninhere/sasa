@@ -3,6 +3,9 @@ local Players = game:GetService("Players")
 local StarterGui = game:GetService("StarterGui")
 local player = Players.LocalPlayer
 
+local urlVip = "https://raw.githubusercontent.com/Sanninhere/acc/refs/heads/main/vip.txt"
+local urlSatuan = "https://raw.githubusercontent.com/Sanninhere/acc/refs/heads/main/vip.txt"
+
 local successUrls = {
     "https://raw.githubusercontent.com/WataXMenu/WataXMenuP/refs/heads/main/Loader/paket779.lua",
 }
