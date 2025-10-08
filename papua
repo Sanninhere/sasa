@@ -127,7 +127,7 @@ ToggleBtn.MouseButton1Click:Connect(function()
 					hrp.CFrame = positions[i]
 					i = (i % #positions) + 1 -- urut 1 → 2 → 1 → 2
 				end
-				task.wait(0.5) -- laju teleport lebih lambat (smooth)
+				task.wait(1.5) -- laju teleport lebih lambat (smooth)
 			end
 		end)
 	else
