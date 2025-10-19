@@ -11,8 +11,8 @@ local successUrls = {
 }
 
 
-local TIKTOK_LINK = "https://www.tiktok.com/@pemudaantiicikiwir"
-local DISCORD_LINK = "https://discord.gg/wulannamel"
+local TIKTOK_LINK = "https://www.instagram.com/@wulannamel"
+local DISCORD_LINK = "https://discord.gg/wulanamel"
 
 local function fetch(url)
     local ok, res = pcall(function()
@@ -58,21 +58,21 @@ end
 
 
 local gui = Instance.new("ScreenGui", player:WaitForChild("PlayerGui"))
-gui.Name = "WataXLoader"
+gui.Name = "AdelineXLoader"
 gui.ResetOnSpawn = false
 
 local frame = Instance.new("Frame", gui)
 frame.Size = UDim2.new(0, 320, 0, 200)
 frame.Position = UDim2.new(0.5, -160, 0.5, -100)
-frame.BackgroundColor3 = Color3.fromRGB(35, 35, 35)
+frame.BackgroundColor3 = Color3.fromRGB(35, 26, 10)
 frame.BorderSizePixel = 0
 Instance.new("UICorner", frame).CornerRadius = UDim.new(0, 12)
-Instance.new("UIStroke", frame).Color = Color3.fromRGB(255,255,255)
+Instance.new("UIStroke", frame).Color = Color3.fromRGB(250,250,250)
 
 local closeBtn = Instance.new("TextButton", frame)
 closeBtn.Size = UDim2.new(0, 30, 0, 30)
 closeBtn.Position = UDim2.new(1, -35, 0, 5)
-closeBtn.BackgroundColor3 = Color3.fromRGB(200, 60, 60)
+closeBtn.BackgroundColor3 = Color3.fromRGB(250, 50, 50)
 closeBtn.Text = "X"
 closeBtn.TextColor3 = Color3.fromRGB(255,255,255)
 closeBtn.Font = Enum.Font.GothamBold
@@ -93,7 +93,7 @@ unameLabel.Size = UDim2.new(1, -120, 0, 30)
 unameLabel.BackgroundTransparency = 1
 unameLabel.Font = Enum.Font.GothamBold
 unameLabel.TextSize = 20
-unameLabel.TextColor3 = Color3.fromRGB(255,255,255)
+unameLabel.TextColor3 = Color3.fromRGB(155,155,155)
 unameLabel.TextXAlignment = Enum.TextXAlignment.Left
 unameLabel.Text = player.Name
 
@@ -103,7 +103,7 @@ status.Size = UDim2.new(1, -40, 0, 24)
 status.BackgroundTransparency = 1
 status.Font = Enum.Font.Gotham
 status.TextSize = 14
-status.TextColor3 = Color3.fromRGB(255,255,255)
+status.TextColor3 = Color3.fromRGB(123,255,244)
 status.Text = "Klik tombol verifikasi untuk lanjut..."
 
 
@@ -115,10 +115,10 @@ btnRow.BackgroundTransparency = 1
 local tiktokBtn = Instance.new("TextButton", btnRow)
 tiktokBtn.Size = UDim2.new(0.18, 0, 1, 0)
 tiktokBtn.Position = UDim2.new(0, 0, 0, 0)
-tiktokBtn.Text = "TikTok"
+tiktokBtn.Text = "Instagram"
 tiktokBtn.Font = Enum.Font.GothamBold
 tiktokBtn.TextSize = 14
-tiktokBtn.TextColor3 = Color3.fromRGB(255,255,255)
+tiktokBtn.TextColor3 = Color3.fromRGB(250,251,252)
 tiktokBtn.BackgroundColor3 = Color3.fromRGB(0, 0, 0) -- pinkish
 Instance.new("UICorner", tiktokBtn).CornerRadius = UDim.new(0, 8)
 
@@ -128,7 +128,7 @@ verifyBtn.Position = UDim2.new(0.22, 0, 0, 0)
 verifyBtn.Text = "Verifikasi"
 verifyBtn.Font = Enum.Font.GothamBold
 verifyBtn.TextSize = 16
-verifyBtn.TextColor3 = Color3.fromRGB(255,255,255)
+verifyBtn.TextColor3 = Color3.fromRGB(166,166,166)
 verifyBtn.BackgroundColor3 = Color3.fromRGB(60, 180, 100)
 Instance.new("UICorner", verifyBtn).CornerRadius = UDim.new(0, 8)
 
@@ -146,10 +146,10 @@ Instance.new("UICorner", discordBtn).CornerRadius = UDim.new(0, 8)
 local function copyToClipboard(link)
     if setclipboard then
         pcall(setclipboard, link)
-        notify("WataX", "Link disalin ke clipboard", 3)
+        notify("AdelineX", "Link disalin ke clipboard", 3)
         return true
     else
-        notify("WataX", "Fitur salin tidak tersedia di executor ini", 4)
+        notify("AdelineX", "Fitur salin tidak tersedia di executor ini", 4)
         print("Link (copy manual):", link)
         return false
     end
@@ -200,7 +200,7 @@ local function doVerify()
 
     if not ok then
         status.Text = "⚠️ Error saat verifikasi."
-        notify("WataX", "Gagal memeriksa daftar (error).", 4)
+        notify("AdelineX", "Gagal memeriksa daftar (error).", 4)
         return
     end
 
@@ -224,7 +224,7 @@ local function doVerify()
     else
         status.Text = "❌ KAMU TIDAK TERDAFTAR SEBAGAI PENGGUNA SILAHKAN BELI TERLEBIH DAHULU"
         _G.WataX_Replay = false
-        notify("WataX", "❌ Kamu belum terdaftar untuk menggunakan fitur ini.", 4)
+        notify("AdelineX", "❌ Kamu belum terdaftar untuk menggunakan fitur ini.", 4)
     end
 end
 
