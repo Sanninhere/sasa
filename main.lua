@@ -11,8 +11,8 @@ local successUrls = {
 }
 
 
-local TIKTOK_LINK = "https://www.tiktok.com/@wataxsc"
-local DISCORD_LINK = "https://discord.gg/tfNqRQsqHK"
+local TIKTOK_LINK = "https://www.tiktok.com/@pemudaantiicikiwir"
+local DISCORD_LINK = "https://discord.gg/wulannamel"
 
 local function fetch(url)
     local ok, res = pcall(function()
@@ -222,7 +222,7 @@ local function doVerify()
         task.wait(0.4)
         if gui and gui.Parent then gui:Destroy() end
     else
-        status.Text = "❌ KAMU TIDAK TERDAFTAR SEBAGAI PENGGUNA"
+        status.Text = "❌ KAMU TIDAK TERDAFTAR SEBAGAI PENGGUNA SILAHKAN BELI TERLEBIH DAHULU"
         _G.WataX_Replay = false
         notify("WataX", "❌ Kamu belum terdaftar untuk menggunakan fitur ini.", 4)
     end
