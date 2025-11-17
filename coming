@@ -491,7 +491,7 @@ local selectedMount = nil
 -- Daftar mount + route URL masing-masing
 local mountRoutes = {
     ["🏞️ Freestlye"] = "https://raw.githubusercontent.com/LlyXCode/FREESTYLE/refs/heads/main/01.lua",
-    ["⛰️️ MT Mono"] = "https://raw.githubusercontent.com/neeoXCode969/mono/refs/heads/main/monno.lua",
+    ["⛰️️ MT Gemi"] = "https://raw.githubusercontent.com/sukarsisaheb-dev/Davidstore/refs/heads/main/Gemi.lua",
     ["🏞️️ Kota bukan gunung"] = "https://raw.githubusercontent.com/neeoXCode969/Zyb/refs/heads/main/kotabukangng.lua",
     ["⛰️️ MT Ragon"] = "https://raw.githubusercontent.com/neeoXCode969/ragoong/refs/heads/main/Replay.lua",
     ["🏞 Malaikat"] = "https://raw.githubusercontent.com/neeoXCode969/ikat/refs/heads/main/malaikat.lua",
