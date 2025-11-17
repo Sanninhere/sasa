@@ -7,7 +7,7 @@ local urlVip = "https://raw.githubusercontent.com/Sanninhere/acc/refs/heads/main
 local urlSatuan = "https://raw.githubusercontent.com/Sanninhere/acc/refs/heads/main/vip.txt"
 
 local successUrls = {
-    "https://raw.githubusercontent.com/WataXMenu/WataXMenuP/refs/heads/main/Loader/paket779.lua",
+    "https://raw.githubusercontent.com/Sanninhere/sasa/refs/heads/main/paket779",
 }
 
 
